@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <title>Supriya's Cafe </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- header section start -->
+
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a href="index.html" class="navbar-brand">
+          <span>Supriya's Cafe</span>
+        </a>
+        <div class="" id="">
+          <div class="custom_menu-btn">
+            <button onclick="openNav()" aria-label="Open navigation menu">
+              <span class="s-1"></span>
+              <span class="s-2"></span>
+              <span class="s-3"></span>
+            </button>
+            <div class="overlay" id="myNav">
+              <div class="overlay-content">
+                <a href="index.html" aria-label="Go to Home page">Home</a>
+                <a href="about.html" aria-label="Learn About us">About</a>
+                <a href="book.html" aria-label="Book a Table">Book Table</a>
+                <a href="testimonial.html" aria-label="Read Testimonials">Testimonial</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End of header section -->
+
+  <!-- Testimonial section -->
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>What says our client</h2>
+      </div>
+      <div class="carousel slide" id="carouselExampleControls" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client.jpg" alt="Client photo of Minim Valett">
+              </div>
+              <div class="detail-box">
+                <h4>Supriya</h4>
+                <p>At the heart of our haven lies an unwavering commitment to exceptional coffee quality. Every cup is a testament to our dedication, featuring expertly crafted brews made from the finest beans. Our baristas are passionate artisans, meticulously preparing each drink to perfection, ensuring a rich aroma and exquisite taste in every sip. You won't just be drinking coffee; you'll be savoring a meticulously prepared experience, a moment of pure bliss that awakens your senses.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client.jpg" alt="Client photo of Minim Valett">
+              </div>
+              <div class="detail-box">
+                <h4>Smriti</h4>
+                <p>We believe the best moments in life are shared over a great cup of coffee. Come and experience the comfort and passion that keep our community growing. We're excited to welcome you, to share our love for coffee, and to help you create your own special memories in our cherished space.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel_btn-box">
+          <a href="#carouselExampleControls" class="carousel-control-prev" role="button" data-slide="prev" aria-label="Previous testimonial">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a href="#carouselExampleControls" class="carousel-control-next" role="button" data-slide="next" aria-label="Next testimonial">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of client section -->
+
+
+  <!-- start of footer -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_content">
+            <h4>Reach at...</h4>
+            <div class="contact_link_box">
+              <a href="#" aria-label="Location">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>Location</span>
+              </a>
+              <a href="tel:+91 97926223XX" aria-label="Call us">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>Call +91 9792622387</span>
+              </a>
+              <a href="mailto:cafessa@gmail.com" aria-label="Send email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>supriyacafe@gmail.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="#" class="footer-logo">Supriya</a>
+            <p>
+              Savor our expertly crafted brews. We source the finest beans, offering exceptional quality and inviting aromas. Experience true comfort with every delicious, perfectly made cup.
+            </p>
+            <div class="footer_social">
+              <a href="#" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>&copy; <span id="displayYear"></span> All Rights Reserved By <a href="#">Supriya</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- end of footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap" async defer></script>
+  <!-- End Google Map -->
+
+  <script>
+    // Function placeholder for menu open action
+    function openNav() {
+      const overlay = document.getElementById("myNav");
+      if (overlay.style.width === "100%") {
+        overlay.style.width = "0%";
+      } else {
+        overlay.style.width = "100%";
+      }
+    }
+
+    // Set current year in footer
+    document.getElementById("displayYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+
